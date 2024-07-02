@@ -1,6 +1,6 @@
 <?php
 $channelId = $_GET['id'];
-$url = "https://captaintvwc.x10.mx/tataplay/get.php?id=" . $channelId;
+$url = "https://livecrichdofficial.000webhostapp.com/livecrichd.php?id=" . $channelId;
 $response = file_get_contents($url);
 $selectedChannel = json_decode($response, true);
 
@@ -9,7 +9,7 @@ if (!$selectedChannel) {
     exit;
 }
 
-$videoUrl = $selectedChannel['channel__url'];
+$videoUrl = $selectedChannel['channel_url'];
 $logoUrl = $selectedChannel['channel_name']; // Assuming there is no logo URL in the JSON, using channel name instead
 $videoTitle = $selectedChannel['channel_name'];
 $keyid = $selectedChannel['keyid'];
@@ -42,8 +42,8 @@ const playerInstance = jwplayer("player").setup({
     displaytitle: true,
     autoplay: true,    
     displaydescription: true,
-    abouttext: "Video Player By LOKIIPTV",
-    aboutlink: "https://t.me/lokiiptvofficial",
+    abouttext: "Video Player By CricCoder",
+    aboutlink: "https://t.me/criccoder",
 
     skin: {
         name: "netflix"
@@ -51,7 +51,7 @@ const playerInstance = jwplayer("player").setup({
 
     logo: {
         file: "<?php echo $logoUrl; ?>",
-        link: "https://t.me/lokiiptvofficial"
+        link: "https://t.me/criccoder"
     },
 
     captions: {
