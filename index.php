@@ -82,90 +82,6 @@ filter: brightness(90%) contrast(100%); /* Adjust these values as per your prefe
         all: unset;
         background-color: darkcyan;
         color: white;
-        width: 100px;
-        padding: 8px;
-        font-weight: 700;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 10px;
-        cursor: pointer;
-        right: 10px;
-      }
-    body.dark  .list {
-       background-color: #334155;
-       color: #fff;
-       list-style: none;
-       display: grid;
-       grid-template-rows: repeat(8px, 40px);
-       border-radius: 10px;
-       overflow: hidden;
-       height: 0;
-       transition: 0.4s;
-     }
-    .fa-moon {
-      color: #f1c40f;
-     font-size:15px;
-     margin: 0px -10px 0px 0px;
-    }
-
-    .fa-sun {
-      color: #f39c12;
-      font-size:18px;
-      margin: 0px 0px 0px 15px;
-    
-    }
-
-    /* Add styles for the card in dark mode */
-    body.dark .card {
-      background-color: #334155;
-      /* Choose a suitable dark color for the card */
-      color: #fff;
-      /* Set the text color to a light color that contrasts with the card background */
-    }
-
-    /* Change #tittel color to dark in dark mode */
-    body.dark #tittel {
-      color: #292c35;
-      /* Choose a suitable dark color for #tittel */
-    }
-
-    /* Change h1 color, background color, and other styles to dark in dark mode */
-    body.dark .header-container {
-      color: #fff;
-      /* Choose a suitable dark color for h1 text */
-      background-color: #334155;
-      /* Choose a suitable dark color for h1 background */
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-      /* Optional: Update the text-shadow for dark mode */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      /* Optional: Update the box-shadow for dark mode */
-    }
-
-    .checkbox {
-      opacity: 0;
-      position: absolute;
-
-    }
-
-    .checkbox-label {
-      background-color: #111;
-      width: 50px;
-      height: 26px;
-      border-radius: 50px;
-      position: relative;
-      padding: 5px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .checkbox-label .ball {
-      background-color: #fff;
-      width: 22px;
-      height: 22px;
-      position: absolute;
       left: 2px;
       top: 2px;
       border-radius: 50%;
@@ -193,6 +109,129 @@ filter: brightness(90%) contrast(100%); /* Adjust these values as per your prefe
 
     .support a:hover {
       transform: scale(1.1);
+    }
+  </style>
+
+  <style>
+    /* Dropdown Styles */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropbtn {
+      background-color: #007bff;
+      color: white;
+      padding: 8px;
+      font-size: 14px;
+      border: ;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #0056b3;
+    }
+
+    /* Dark mode styles for Dropdown */
+    body.dark .dropbtn {
+      background-color: #292c35;
+      color: #fff;
+    }
+
+    body.dark .dropdown-content {
+      background-color: #444;
+      color: #fff;
+    }
+
+    body.dark .dropdown-content a {
+      color: #fff;
+    }
+
+    body.dark .dropdown-content a:hover {
+      background-color: #333;
+    }
+
+    /* Dark mode styles for .box-shadow */
+    body.dark .box-shadow {
+      background-color: #444;
+      color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Add dark mode styles to the rest of the document (e.g., .header-container, etc.) */
+    /* ... */
+
+    body {
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      margin: 0 12px;
+      height: 100%;
+      background-color: #f1f1f1;
+    }
+
+    .box-shadow {
+      font-family: sans-serif;
+      font-weight: 600;
+      background-color: #2ecc71;
+      color: white;
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 20px 23px #7fecad;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      font-size: 15px;
+      color: #333;
+    }
+
+    /*
+  .header-container {
+    font-family: 'Gloock', serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #333;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  */
+
+    a. {
+      text-decoration: none !important;
     }
   </style>
 
