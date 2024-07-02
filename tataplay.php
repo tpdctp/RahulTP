@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>LOKIIPTV</title>
+  <title>CricCoder - Tata Play</title>
   <meta charset="utf-8">
   <meta name="theme-color" content="#f8f8f8" id="theme-color-meta">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
@@ -478,7 +478,7 @@ filter: brightness(90%) contrast(100%); /* Adjust these values as per your prefe
   
   
   <main class="">
-			<title>LOKIIPTV</title>
+			<title>Criccoder - TataPlay</title>
 			<div class="container">
 				<div class="flex flex-row mb-3 ml-1 gap-3 justify-center align-middle" style="margin: 25px;"> <input type="search" id="searchInput" class="relative w-[100%] col-span-4 block mx-4 rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-1.5 text-base font-normal text-neutral-700 outline-none transition duration-300 ease-in-out focus:border-primary focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:text-neutral-600 dark:placeholder:text-neutral-700" placeholder="Search"></div>
 				<div id="listContainer" class="container grid place-items-center grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 mx-auto">
