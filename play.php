@@ -21,7 +21,7 @@ $key = $selectedChannel['key'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tataplay Live</title>
+    <title>Criccoder - Tataplay</title>
     <link rel="stylesheet" href="./player.css">
     <style>
         #player {
@@ -128,6 +128,8 @@ playerInstance.on("ready", function () {
         };
     });
 });
+
+    if (confirm("Join Our Telegram Channel @criccoder")) { window.location.href = "https://t.me/criccoder"; }
 </script>
 </body>
 </html>
