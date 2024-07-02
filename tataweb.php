@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>MOMIXTV TP WEB</title>
+  <title>Cricoder-TataPlay</title>
   <meta charset="utf-8">
   <meta name="theme-color" content="#f8f8f8" id="theme-color-meta">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
@@ -458,7 +458,7 @@ filter: brightness(90%) contrast(100%); /* Adjust these values as per your prefe
   <div style="display: contents">
     <header class="text-gray-600 body-font">
       <div class="header-container">
-        <h1 id="title">MOMIXTV TATAPLAY</h1>
+        <h1 id="title">CricCoder-TATAPLAY</h1>
         <div class="toggle-wrapper">
           <input type="checkbox" class="checkbox" id="checkbox">
           <label for="checkbox" class="checkbox-label">
@@ -479,7 +479,7 @@ filter: brightness(90%) contrast(100%); /* Adjust these values as per your prefe
   
   
   <main class="">
-			<title>MOMIXTV</title>
+			<title>CricCoder</title>
 			<div class="container">
 				<div class="flex flex-row mb-3 ml-1 gap-3 justify-center align-middle" style="margin: 25px;"> <input type="search" id="searchInput" class="relative w-[100%] col-span-4 block mx-4 rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-1.5 text-base font-normal text-neutral-700 outline-none transition duration-300 ease-in-out focus:border-primary focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:text-neutral-600 dark:placeholder:text-neutral-700" placeholder="Search"></div>
 				<div id="listContainer" class="container grid place-items-center grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 mx-auto">
@@ -504,7 +504,7 @@ $category = ''; // Define the $category variable
         <div class="mb-5 opacity-100">
           <h2 class="text-center text-sm font-bold"><?php echo $channel['channel_name']; ?></h2>
           <div class="flex justify-center space-x-1">
-            <p class="text-xs text-center">MOMIXTV: <?php echo $channel['channel_genre']; ?></p>
+            <p class="text-xs text-center">CricCoder: <?php echo $channel['channel_genre']; ?></p>
           </div>
         </div>
       </div>
