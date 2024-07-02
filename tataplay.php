@@ -457,7 +457,7 @@ filter: brightness(90%) contrast(100%); /* Adjust these values as per your prefe
   <div style="display: contents">
     <header class="text-gray-600 body-font">
       <div class="header-container">
-        <h1 id="title">TATAPLAY</h1>
+        <h1 id="title">Criccoder -TATAPLAY</h1>
         <div class="toggle-wrapper">
           <input type="checkbox" class="checkbox" id="checkbox">
           <label for="checkbox" class="checkbox-label">
@@ -503,7 +503,7 @@ $category = ''; // Define the $category variable
         <div class="mb-5 opacity-100">
           <h2 class="text-center text-sm font-bold"><?php echo $channel['channel_name']; ?></h2>
           <div class="flex justify-center space-x-1">
-            <p class="text-xs text-center">LOKIIPTV: <?php echo $channel['channel_genre']; ?></p>
+            <p class="text-xs text-center">Criccoder: <?php echo $channel['channel_genre']; ?></p>
           </div>
         </div>
       </div>
