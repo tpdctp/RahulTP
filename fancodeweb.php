@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports Match Streams</title>
+    <title>LiveCricHd Fancode</title>
     <style>
         body {
             background-color: #f4e9d7; /* Light brown background */
